@@ -28,6 +28,10 @@ app.get('/breakout.js', (req, res) => {
   res.sendFile(path.join(__dirname, '..', 'breakout', 'breakout.js'));
 });
 
+app.get('/test/:testvar', (req, res) => {
+  res.send('URL var here: ' + req.params.testvar);
+});
+
 app.use((req, res, next) => {
   res.send('<h1>Sorry, not found.</h1>');
 });
