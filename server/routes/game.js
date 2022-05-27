@@ -23,4 +23,28 @@ router.get('/breakout.js', (req, res) => {
   res.sendFile(path.join(__dirname, '..', '..', 'breakout', 'breakout.js'));
 });
 
+router.get('/eatfish', (req, res) => {
+  res.sendFile(path.join(__dirname, '..', '..', 'eatfish', 'eatfish.html'));
+});
+
+router.get('/eatfishengine.js', (req, res) => {
+  res.sendFile(path.join(__dirname, '..', '..', 'eatfish', 'eatfishengine.js'));
+});
+
+router.get('/eatfishsetup.js', (req, res) => {
+  res.sendFile(path.join(__dirname, '..', '..', 'eatfish', 'eatfishsetup.js'));
+});
+
+router.get('/eatfishentities.js', (req, res) => {
+  res.sendFile(path.join(__dirname, '..', '..', 'eatfish', 'eatfishentities.js'));
+});
+
+router.get('/eatfishcomponents.js', (req, res) => {
+  res.sendFile(path.join(__dirname, '..', '..', 'eatfish', 'eatfishcomponents.js'));
+});
+
+router.get('/eatfishsystems.js', (req, res) => {
+  res.sendFile(path.join(__dirname, '..', '..', 'eatfish', 'eatfishsystems.js'));
+});
+
 module.exports = router;
