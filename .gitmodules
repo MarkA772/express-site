@@ -1,6 +1,9 @@
-[submodule "SnakeClone-Phaser"]
-	path = SnakeClone-Phaser
-	url = ./SnakeClone-Phaser/
+[submodule "eatfish"]
+	path = eatfish
+	url = https://github.com/MarkA772/eatfish.git
 [submodule "breakout"]
 	path = breakout
-	url = ./breakout/
+	url = https://github.com/MarkA772/breakout.git
+[submodule "SnakeClone-Phaser"]
+	path = SnakeClone-Phaser
+	url = https://github.com/MarkA772/SnakeClone-Phaser.git
