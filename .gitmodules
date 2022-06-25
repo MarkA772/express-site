@@ -7,3 +7,6 @@
 [submodule "SnakeClone-Phaser"]
 	path = SnakeClone-Phaser
 	url = https://github.com/MarkA772/SnakeClone-Phaser.git
+[submodule "turtle-algo-game"]
+	path = turtle-algo-game
+	url = https://github.com/MarkA772/turtle-algo-game.git
