@@ -47,4 +47,12 @@ router.get('/eatfishsystems.js', (req, res) => {
   res.sendFile(path.join(__dirname, '..', '..', 'eatfish', 'eatfishsystems.js'));
 });
 
+router.get('/turtle', (req, res) => {
+  res.sendFile(path.join(__dirname, '..', '..', 'turtle-algo-game', 'client', 'index.html'));
+});
+
+router.get('/build/bundle.js', (req, res) => {
+  res.sendFile(path.join(__dirname, '..', '..', 'turtle-algo-game', 'build', 'bundle.js'));
+});
+
 module.exports = router;
