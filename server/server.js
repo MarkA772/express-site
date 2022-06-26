@@ -1,5 +1,6 @@
 const express = require('express');
 const path = require('path');
+require('dotenv').config();
 const gameRouter = require('./routes/game');
 const dbRouter = require('../turtle-algo-game/server/routes/dbRouter');
 
