@@ -4,6 +4,15 @@
     <span>Express Test Website, converting from my vanilla node site. Here's a link to my snake game: <a href="./games/snake">Snake</a></span><br/>
     <span>Here's a link to breakout: <a href="./games/breakout">Breakout</a></span><br/>
     <span>Here's my 'eatfish' game (eat bigger fish, avoid smaller ones): <a href="./games/eatfish">Eatfish</a></span><br/></br>
-    <span>Turtle Algorithm Drawing App: <a href="./games/turtle">Turtle</a></span><br/></br>
+    <span>Turtle Algorithm Drawing App: <a href="./games/turtle">Turtle</a></span><br/><br/>
+    <span>Image hosted on AWS S3:</span></br>
+    <img src="https://codesmith-iteration-project.s3.us-west-1.amazonaws.com/Untitled.png">
+    <form method="POST" action="/upload" enctype="multipart/form-data">
+      <div class="field">
+        <label for="image">Image Upload</label>
+        <input type="file" name="image" id="image">
+      </div>
+      <input type="submit" class="btn" value="Save">
+    </form>
   </body>
 </html>
